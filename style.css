@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1280px;
+}
+
+.banner {
+
+    margin: auto;
+}
+
+.banner-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    margin: 60px 0;
+    padding: 60px 40px;
+    border-radius: 30px;
+}
+
+.banner-heading {
+    display: flex;
+    align-items: center;
+}
+
+.banner-text h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.banner-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.hero-image {
+    width: 520px;
+    margin-bottom: -47px;
+
+}
+
+.button {
+    padding: 16px 25px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #DD0000;
+    border-radius: 5px;
+    text-decoration: none;
+}
